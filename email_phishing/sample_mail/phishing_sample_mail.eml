@@ -1,0 +1,28 @@
+Return-Path: <noreply@security-alerts.example.com>
+Delivered-To: user@yourcompany.com
+Received: from mail.attacker.com (mail.attacker.com [198.51.100.45])
+    by mx.yourcompany.com (Postfix) with ESMTP id 123ABCD;
+    Wed, 22 Oct 2025 09:15:02 +0000 (UTC)
+From: "Microsoft Account Team" <account-security@microsoft.com>
+Reply-To: <support@attacker.com>
+To: user@yourcompany.com
+Subject: IMPORTANT: Suspend Notice — Verify Your Account Immediately
+Message-ID: <CA+abc123@mail.attacker.com>
+Date: Wed, 22 Oct 2025 09:14:58 +0000
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Authentication-Results: mx.yourcompany.com;
+    spf=fail (sender SPF failed) smtp.mailfrom=security-alerts.example.com;
+    dkim=none;
+    dmarc=fail (p=none)
+<html>
+  <body>
+    <p>Dear Customer,</p>
+    <p><strong>Your account will be suspended within 24 hours unless you verify it.</strong></p>
+    <p>We detected suspicious activity on your account. To restore access, please <a href="http://198.51.100.45/verify?u=user">Verify your account</a> immediately.</p>
+    <p>If you do not verify your account it will be permanently suspended.</p>
+    <p>Download the attached invoice for more details: <em>invoice.pdf</em></p>
+    <p>Regards,<br/>Microsoft Security Team</p>
+  </body>
+</html>
+
